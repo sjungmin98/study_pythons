@@ -44,4 +44,4 @@ print(str_question)
 print(answer)
 print("-------------------------------------------------")
 # 다른 방식(모아서)의 출력 "()"하나는 변수 하나와 매칭
-print("() -> ()".format(str_question, answer))
+print("{} {}".format(str_question, answer))

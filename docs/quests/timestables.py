@@ -16,4 +16,4 @@ num = 1
 while num <= 9:
     result = gugudan * num
     print("{} x {} = {}".format(gugudan, num, result))
-    num += 14
+    num += 1

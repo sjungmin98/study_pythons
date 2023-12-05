@@ -13,7 +13,10 @@ pass
 gugudan = int(input("숫자를 입력하세요 "))
 num = 1
 
+print("--------------------------------------")
+
 while num <= 9:
     result = gugudan * num
     print("{} x {} = {}".format(gugudan, num, result))
     num += 1
+pass

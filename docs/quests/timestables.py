@@ -10,3 +10,10 @@ while num <= 9 :
     print("{} x {} = {}".format(num_vir, num, result))
     num += 1
 pass
+gugudan = int(input("숫자를 입력하세요"))
+num = 1
+
+while num <= 9:
+    result = gugudan * num
+    print("{} x {} = {}".format(gugudan, num, result))
+    num += 14

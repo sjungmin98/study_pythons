@@ -9,5 +9,5 @@ elif BMI >= 23 :
     print("과체중 입니다.")
 elif BMI >= 18 :
     print("정상체중 입니다.")   
-else:
+else :
     print("저체중 입니다.")

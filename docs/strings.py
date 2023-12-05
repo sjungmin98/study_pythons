@@ -45,3 +45,18 @@ print(answer)
 print("-------------------------------------------------")
 # 다른 방식(모아서)의 출력 "()"하나는 변수 하나와 매칭
 print("{} {}".format(str_question, answer))
+
+# 다중 변수 정의와 값 넣기
+multi_val = 3, 5
+# multi_val
+# (3, 5)
+num_first, num_second = 3, 5
+num_first
+# 3
+num_second
+# 5
+
+#string split()
+First, Second = "6 8".split()
+num_first, num_second = int(First), int(Second)
+pass

@@ -10,6 +10,7 @@ gugudan = int(input("숫자를 입력하세요 "))
 num = 1
 for number in num_vir:
     result = gugudan * num
+    pass
     print("{} x {} = {}".format(gugudan, num, result))
     num += 1
 pass

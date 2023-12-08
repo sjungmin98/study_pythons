@@ -16,5 +16,3 @@ def cal_multi():
         print("result: {}".format(result))
 
 cal_multi()
-
-

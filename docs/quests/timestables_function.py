@@ -58,7 +58,7 @@ def cal_multi():
 
         print("result for 20dan: {}".format(result))
         print("result for 30dan: {}".format(result_30))
-        print("result for 30dan: {}".format(result_35))
+        print("result for 35dan: {}".format(result_35))
 
 cal_multi()
 

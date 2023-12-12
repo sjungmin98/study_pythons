@@ -23,7 +23,7 @@ def get_mixed_questions():
     list_mixed_questions = []
 
     # input 기능 추가
-    for _ in range(3):
+    for inputs in range(3):
         question = input("question : ")
 
         list_mixed_answers = []

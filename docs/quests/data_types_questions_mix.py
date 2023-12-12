@@ -19,27 +19,36 @@
 #     }]
 
 def get_mixed_questions():
-    dict_mixed_questions = []
+    
+    list_mixed_questions = []
 
-    # input기능 추가
-    for inputs in range(3):
-        question = input("question: ")
-        answer = input("answer: ")
-        correct_index = input("correct_index: ")
-        score = input("score: ")
+    # input 기능 추가
+    for _ in range(3):
+        question = input("question : ")
+
+        list_mixed_answers = []
+        
+        answer = input("answer : ")
+        list_mixed_answers.append(answer)
+        correct_index = input("correct_index : ")
+        score = input("score : ")
 
         # 입력값을 딕셔너리로 저장
-        dict_mixed_questions.append({
+        dict_mixed_questions = {
             'question': question,
-            'answer': answer,
+            'answer': list_mixed_answers,
             'correct_index': correct_index,
             'score': score
-        })
+        }
+        list_mixed_questions.append(dict_mixed_questions)
 
-    return dict_mixed_questions
-def print_mixed_questions(dict_mixed_questions):
+    return list_mixed_questions
+
+
+def print_mixed_questions(list_mixed_questions):
+    
     # 입력값 출력
-    for mixed_questions in dict_mixed_questions:
+    for mixed_questions in list_mixed_questions:
         print("\"question\" : {}".format(mixed_questions['question']))
         print("\"answer\" : {}".format(mixed_questions['answer']))
         print("\"correct_index\" : {}".format(mixed_questions['correct_index']))

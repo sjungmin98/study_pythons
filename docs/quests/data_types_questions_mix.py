@@ -44,6 +44,7 @@ def get_mixed_questions():
 
     return list_mixed_questions
 
+mixed_questions_data = get_mixed_questions()
 
 def print_mixed_questions(list_mixed_questions):
     
@@ -55,5 +56,4 @@ def print_mixed_questions(list_mixed_questions):
         print("\"score\" : {}".format(mixed_questions['score']))
 
 # 함수 호출
-mixed_questions_data = get_mixed_questions()
-print_mixed_questions(mixed_questions_data)
+print_mixed_questions(get_mixed_questions())

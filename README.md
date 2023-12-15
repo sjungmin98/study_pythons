@@ -16,3 +16,4 @@
 |출력|[.py]|1-12|(./docs/codingtests/10171.py)|고양이를 출력|[백준 10171](https://www.acmicpc.net/problem/10171)|
 |출력|[.py]|1-13|(./docs/codingtests/10172.py)|개를 출력|[백준 10172](https://www.acmicpc.net/problem/10172)|
 |출력|[.py]|2-1|(./docs/codingtests/1330.py)(./docs/codingtests/1330_function.py)|A가 B보다 큰 경우 '>'를, A가 B보다 작은 경우 '<'를, A와 B가 같은 경우 '=='를 출력|[백준 1330](https://www.acmicpc.net/problem/1330)|
+|출력|[.py]|2-2|(./docs/codingtests/9498.py)(./docs/codingtests/9498_function.py)|시험 점수를 입력받아 조건에 맞는 학점 출력하는 프로그램 작성 및 출력|[백준 9498](https://www.acmicpc.net/problem/9498)|

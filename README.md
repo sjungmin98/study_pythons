@@ -1,4 +1,4 @@
-## Coding Tests
+### Coding Tests
 
 |구분|소스|문제번호|문제설명|출처|
 |--|--|--|--|--|
@@ -18,3 +18,30 @@
 |출력|[.py]|2-1|(./docs/codingtests/1330.py)(./docs/codingtests/1330_function.py)|A가 B보다 큰 경우 '>'를, A가 B보다 작은 경우 '<'를, A와 B가 같은 경우 '=='를 출력|[백준 1330](https://www.acmicpc.net/problem/1330)|
 |출력|[.py]|2-2|(./docs/codingtests/9498.py)(./docs/codingtests/9498_function.py)|시험 점수를 입력받아 조건에 맞는 학점 출력하는 프로그램 작성 및 출력|[백준 9498](https://www.acmicpc.net/problem/9498)|
 |출력|[.py]|2-3|(./docs/codingtests/2753.py)|첫째 줄에 윤년이면 1, 아니면 0을 출력(앞으로 문제 function으로 풀어서 파일하나만 업로드)|[백준 2753](https://www.acmicpc.net/problem/2753)|
+
+### Code Blocks
+ ```
+1. Python에서 변수를 선언하는 방법은? (점수: 10점)
+1) var name 2) name = value 3) set name 4) name == value
+-정답 :  4
+2. Python에서 리스트(List)의 특징은 무엇인가요? (점수: 15점)
+1) 순서가 있고 변경 가능하다, 2) 중복된 값을 가질 수 없다, 3) 원소를 추가하거나 삭제할 수 없다, 4) 정렬된 
+상태로 유지된다
+-정답 :  2
+3. Python에서 조건문을 작성하는 방법은? (점수: 10점)
+1) if-else, 2) for-in, 3) while, 4) def
+-정답 :  3
+4. Python에서 함수를 정의하는 방법은? (점수: 5점)
+1) class, 2) def, 3) import, 4) return
+-정답 :  2
+—----- 결과 —-------------
+응답한 내용 : 1번 4, 2번 2, 3번 3, 4번 2
+당신 응답 합계 : 5점
+학점은 F 입니다.
+ ```
+
+### Summary
+<details open>
+  <summary>summary</summary>
+  <p>추가적인 정보가 여기에 표시됩니다.</p>
+</details>

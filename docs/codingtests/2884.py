@@ -12,16 +12,14 @@
 # 출력
 ## 첫째 줄에 상근이가 창영이의 방법을 사용할 때, 설정해야 하는 알람 시간을 출력한다. (입력과 같은 형태로 출력하면 된다.)
 
-def alarm(Hours, Minutes):
-    Minutes -= 45  # 주어진 분에서 45분 -
-    if Minutes < 0:  # 만약 분이 0보다 작아질 경우
-        Minutes += 60  # 분에 60을 더함(1시간을 빌려옴)
-        Hours -= 1  # 그리고 시간에서 1을 뺌
-        if Hours < 0:  # 만약 시간이 0보다 작아질 경우
-            Hours = 23  # 시간을 23으로 설정(하루를 빌려옴)
-    return Hours, Minutes  # 계산이 끝난 시간 결과
+def alarm(hour, minute):
+    if minute > 44:
+        return hour, minute-45
+    elif minute <= 44 and hour >= 1:
+        return hour-1, minute+15
+    else:
+        return 23, minute+15
 
-Hours = int(input())  
-Minutes = int(input())  
-Hours, Minutes = alarm(Hours, Minutes)  # 함수 호출(새로운 알람 시간을 계산)
-print(Hours, Minutes)  # 알람 시간을 출력
+hour, minute = map(int, input().split())
+hour, minute = alarm(hour, minute)
+print(hour, minute)

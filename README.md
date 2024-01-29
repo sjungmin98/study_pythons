@@ -19,6 +19,7 @@
 |출력|[.py]|2-2|(./docs/codingtests/9498.py)(./docs/codingtests/9498_function.py)|시험 점수를 입력받아 조건에 맞는 학점 출력하는 프로그램 작성 및 출력|[백준 9498](https://www.acmicpc.net/problem/9498)|
 |출력|[.py]|2-3|(./docs/codingtests/2753.py)|첫째 줄에 윤년이면 1, 아니면 0을 출력(앞으로 문제 function으로 풀어서 파일하나만 업로드)|[백준 2753](https://www.acmicpc.net/problem/2753)|
 |출력|[.py]|2-4|(./docs/codingtests/14681.py)|점 (x, y)의 사분면 번호(1, 2, 3, 4 중 하나)를 출력|[백준 14681](https://www.acmicpc.net/problem/14681)|
+|출력|[.py]|2-5|(./docs/codingtests/2884.py)|"45분 일찍 알람 설정하기"|[백준 2884](https://www.acmicpc.net/problem/2884)|
 
 ### Code Blocks
  ```
